@@ -1,0 +1,9 @@
+{
+  "name": "datadog",
+  "description": "DataDog client-server router packaged for Meteor",
+  "homepage": "https://github.com/stoleru/datadog",
+  "author": "Andrei Stoleru <andrei@stoleru.com>",
+  "version": "0.0.1",
+  "git": "https://github.com/stoleru/datadog.git",
+  "packages": {}
+}
