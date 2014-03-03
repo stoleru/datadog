@@ -1,1 +1,1 @@
-dogstatsd = Npm.require("node-dogstatsd");
+StatsD = Npm.require("node-dogstatsd").StatsD;

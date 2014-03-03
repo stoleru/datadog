@@ -1,3 +1,4 @@
+
 Package.describe({
   summary: "Meteor DataDog API"
 });
@@ -5,8 +6,8 @@ Package.describe({
 Npm.depends({"node-dogstatsd": "0.0.4"});
 
 Package.on_use(function (api) {
-  api.add_files("node-dogstatsd.js", ["server","client"]);
+  api.add_files("node-dogstatsd.js", 'server');
   if (typeof api.export !== 'undefined') {
-  	 api.export('dogstatsd', ['server','client']);
+  	 api.export('StatsD', 'server');
 	}
 });
